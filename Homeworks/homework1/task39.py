@@ -1,0 +1,6 @@
+A=float(input('A = '))
+B=float(input('B = '))
+C=float(input('C = '))
+x1=(-B+(B**2-4*A*C)**2)/(2*A)
+x2=(-B-(B**2-4*A*C)**2)/(2*A)
+print('Tenglamaning ildizlari',x1,'va',x2,'ga teng')

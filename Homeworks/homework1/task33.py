@@ -1,0 +1,5 @@
+X=float(input('X = '))
+A=float(input('A = '))
+Y=float(input('Y = '))
+print('1kg konfet',A/X,'so\'m turadi')
+print(Y,'kg konfet',Y*(A/X),'so\'m turadi')

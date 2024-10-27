@@ -1,0 +1,6 @@
+a=float(input("0 ga teng bo'lmagan son kiriting:"))
+b=float(input("0 ga teng bo'lmagan son kiriting:"))
+print("Bu sonlarning yi'indisi",a+b,"ga teng")
+print("Bu sonlarning kopaytmasi",a*b,"ga teng")
+print("1-sonning kvadrati",a**2,"ga teng")
+print("2-sonning kvadrati",b**2,"ga teng")
