@@ -1,0 +1,6 @@
+m1=str(input('Enter the first string : '))
+m2=str(input('Enter the second string : '))
+x=str(bool(len(m1)==len(m2)))
+x=x.replace('True','These 2 strings have the same length')
+x=x.replace('False','These 2 strings have the different length')
+print(x)

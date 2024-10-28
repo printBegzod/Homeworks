@@ -1,0 +1,5 @@
+n=float(input('Enter a number : '))
+x=str(bool(n>=10 and n<=20))
+x=x.replace('True','This number is between 10 and 20 (inclusive)')
+x=x.replace('False','This number is not between 10 and 20 (inclusive)')
+print(x)

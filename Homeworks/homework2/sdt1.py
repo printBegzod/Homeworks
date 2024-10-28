@@ -1,8 +1,6 @@
-s=str(input('Enter the sentence:'))
+s=str(input('Enter a sentence:'))
 a=s.split()
-print(a)
 for i in range (0,len(a)):
-    s=s.replace(a [i],a [i].capitalize())
-    print(s)
+    a[i]=a[i].capitalize()
+s=' '.join(a)
 print(s)
-print('BUgUn' in s)

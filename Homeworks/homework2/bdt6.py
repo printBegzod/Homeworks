@@ -1,0 +1,5 @@
+n=float(input('enter the number : '))
+x=str(bool(n%15==0))
+x=x.replace('True','This number is divisible by both 3 and 5')
+x=x.replace('False','This number is not divisible by both 3 and 5')
+print(x)

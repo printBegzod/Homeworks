@@ -1,0 +1,5 @@
+word=str(input('Enter a word : '))
+sentence=str(input('Enter a sentence : '))
+word=word.lower()
+sentence=sentence.lower()
+print(word in sentence)

@@ -1,0 +1,6 @@
+n=float(input('Enter the first number : '))
+m=float(input('Enter the second number : '))
+x=str(bool((m+n)>50))
+x=x.replace('True','Sum of these two numbers is greater than 50')
+x=x.replace('False','Sum of these two numbers is not greater than 50')
+print(x)

@@ -1,0 +1,5 @@
+n=float(input('Enter a number : '))
+x=str(bool(n>0 and n%2==0))
+x=x.replace('True','This number is positive and even')
+x=x.replace('False','This number is not positive or even')
+print(x)

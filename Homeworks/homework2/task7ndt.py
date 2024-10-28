@@ -1,0 +1,5 @@
+n=int(input())
+n=str(n%2)
+n=n.replace('0','even')
+n=n.replace('1','odd')
+print(n)
