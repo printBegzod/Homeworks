@@ -1,0 +1,1 @@
+clist.remove(mylist2[i])
